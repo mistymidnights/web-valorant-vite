@@ -1,0 +1,35 @@
+#footer {
+    background-color: black;
+    height: 50px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+#footer img{
+    width: 25px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+@media (max-width: 563px) {
+    ul {
+        margin: 0;
+    }
+    #footer {
+        bottom:0;
+    }
+    #app {
+        padding: 0;
+    }
+}

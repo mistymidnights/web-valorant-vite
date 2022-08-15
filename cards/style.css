@@ -1,0 +1,204 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 608px;
+    font-family: 'Quicksand', sans-serif;
+    height: 579px;
+    border-radius: 20px;
+    background: #101c2ed2;
+    background-image: url("https://wallpapercave.com/wp/wp9452970.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.card-image img{
+    height: 300px;
+}
+
+.image-container{
+    height: 300px;
+    filter: drop-shadow(5px 0px 10px rgba(34, 34, 34, 0.295));
+}
+
+
+.grid-template{
+    overflow: hidden;
+    padding-top: 77px;
+	display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: max-content;
+	overflow: overlay;
+	height: 100vh;
+	scroll-snap-type: both mandatory;
+	scroll-padding: 1rem;
+}
+
+h4{
+letter-spacing: 2px;
+}
+
+
+/* carrousel */
+
+
+.active {
+	scroll-snap-type: unset;
+}
+
+.agent-container .card {
+	scroll-snap-align: center;
+	display: inline-block;
+	border-radius: 3px;
+	font-size: 0;
+    z-index: -1;
+}
+
+/* backgrounds */
+
+#Fade{
+    background-image: url("https://phantom-marca.unidadeditorial.es/4f2cd7db13ec03c4a7cc5b55df289fae/crop/0x0/2044x1150/resize/1320/f/jpg/assets/multimedia/imagenes/2022/04/25/16508785116797.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+#Breach{
+    background-image: url("https://images3.alphacoders.com/114/1149739.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+#Raze{
+    background-image: url("https://images5.alphacoders.com/108/1080945.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+#Chamber{
+    background-image: url("https://images.alphacoders.com/118/thumb-1920-1186644.png");
+    background-blend-mode: multiply;
+    filter: brightness(0.7);
+    background-size: cover;
+}
+#KAY/YO{
+    background-image: url("https://rare-gallery.com/resol/1920x1080/45472-Skye-ValorantSkye-Valorant-4k-Ultra-HD-Wallpaper.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+#Skye{
+    background-image: url("https://rare-gallery.com/resol/1920x1080/45472-Skye-ValorantSkye-Valorant-4k-Ultra-HD-Wallpaper.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+#Cypher{
+    background-image: url("https://images5.alphacoders.com/120/1203295.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+#Sova{
+    background-image: url("https://rare-gallery.com/resol/1920x1080/344873-Sova-Valorant-Video-Game.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+#Killjoy{
+    background-image: url("https://cdn1.dotesports.com/wp-content/uploads/2021/06/23052003/KillJoy_Wallpapers_blue2-scaled-1.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+#Viper{
+    background-image: url("https://rare-gallery.com/resol/1920x1080/344869-Viper-Valorant-Video-Game.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+#Phoenix{
+    background-image: url("https://images5.alphacoders.com/120/1203300.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+#Astra{
+    background-image: url("https://images8.alphacoders.com/113/1133570.png");
+    background-blend-mode: multiply;
+    filter: brightness(0.7);
+    background-size: cover;
+}
+#Brimstone{
+    background-image: url("https://images7.alphacoders.com/108/1080942.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+#Neon{
+    background-image: url("https://i0.wp.com/www.pcmgames.com/wp-content/uploads/2022/01/Valorant-Neon.jpg?fit=1920%2C1080&ssl=1");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+#Yoru{
+    background-image: url("https://images.alphacoders.com/120/1203282.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+#Sage{
+    background-image: url("https://images4.alphacoders.com/114/1149441.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+#Reyna{
+    background-image: url("https://images6.alphacoders.com/108/1080939.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+#Omen{
+    background-image: url("https://images8.alphacoders.com/108/1080944.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+#Jett{
+    background-image: url("https://images.alphacoders.com/120/1203294.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+@media (max-width: 1043px) {
+    .image-container{
+        height: 200px;
+        filter: drop-shadow(5px 0px 10px rgba(34, 34, 34, 0.295));
+    }
+    .card {
+        width: 493px;
+        height: 575px;
+    }
+    h4{
+        font-size: 12px;
+    }
+    .grid-template{
+        padding-top: 100px;
+    }
+    .text-slider {
+        top: 45%;
+        left: -25px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 564px) {
+    .card-image img{
+        height: 200px;
+    }
+    
+    .image-container{
+        height: 200px;
+        filter: drop-shadow(5px 0px 10px rgba(34, 34, 34, 0.295));
+    }
+    .card {
+        width: 340px;
+        height: 575px;
+    }
+    h4{
+        font-size: 12px;
+    }
+    .grid-template{
+        padding-top: 100px;
+    }
+    .text-slider {
+        top: 45%;
+        left: -25px;
+        font-size: 25px;
+    }
+}
