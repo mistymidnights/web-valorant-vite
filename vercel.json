@@ -1,8 +1,0 @@
-{
-  "routes": [
-    { "src": "/index.html", "dest": "/index.html" },
-    { "src": "/maps/maps.html", "dest": "/maps/maps.html" },
-    { "src": "/weapons/weapons.html", "dest": "/weapons/weapons.html" },
-    { "src": "/ranks/ranks.html", "dest": "/ranks/ranks.html" }
-  ]
-}
