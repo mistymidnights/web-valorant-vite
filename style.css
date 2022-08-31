@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap");
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -31,7 +31,7 @@ body {
   min-width: 320px;
   overflow: hidden;
   min-height: 100vh;
-  background-image: url("https://rare-gallery.com/resol/2048x1152/344840-Jett-Valorant-Video-Game.jpg");
+  background-image: url("https://cdn.discordapp.com/attachments/1014491221349109770/1014491435380265081/344840-Jett-Valorant-Video-Game.jpg");
 }
 
 h1 {
@@ -62,14 +62,14 @@ h1 {
   padding: 2em;
 }
 
-.text-slider{
+.text-slider {
   top: 45%;
   position: absolute;
-  left:-35px;
+  left: -35px;
   transform: rotate(-90deg);
   font-size: 40px;
   text-transform: uppercase;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .read-the-docs {
